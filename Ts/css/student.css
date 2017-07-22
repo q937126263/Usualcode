@@ -1,0 +1,85 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url("../images/bg.jpg");
+}
+a{
+	text-decoration: none;
+	outline: none;
+	color: black;
+}
+a:hover,a:active,a:visited,a:link{
+	background-color: transparent;
+	text-decoration: none;
+}
+a:hover{
+	color:orange;
+}
+a:active{
+	color:orange;
+}
+
+#content{
+	max-width: 1303px;
+	width: 1303px;
+	height: 690px;
+	margin: auto;
+	/*background: #ccc;*/
+}
+#left{
+	max-width:300px; 
+	width: 100%;
+	height: 690px;
+	background: rgba(255,255,255,1);
+	margin-top: 2%;
+	float: left;
+}
+.btn-c:hover,.btn-c:active,.btn-c:visited,.btn-c:link{
+	background-color: white;
+}
+.btn-c {
+	background:transparent;
+	border-radius: 0px;
+	border:none;
+}
+.form-c{
+	background: transparent;
+	border-radius: 2px;
+	border-top: none;
+	border-left:none;
+	border-right: none;
+}
+
+.left_top_ul,.left_bottom_ul{
+	line-height: 35px;
+	overflow:hidden;
+}
+.left_top_ul li,.left_bottom_ul li{
+	margin-left: 7%;
+}
+
+#right{
+	max-width:1000px; 
+	width: 100%;
+	height: 690px;
+	background: rgba(255,255,255,1);
+	margin-top: 2%;
+	float: right;
+}
+.page-header{
+	margin:5% 2% 2% 40%;
+	border: 0px;
+}
+.submit-btn{
+	margin-left:50%;
+}
+.note-editor{
+	left: 18%;
+}
+
+.btn-bottom{
+	display: inline-block;
+	margin-left: 42%;
+}
